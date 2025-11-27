@@ -12,8 +12,8 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ activeView, setView }) => (
   <div className="w-64 h-screen bg-white border-r border-gray-200 flex flex-col fixed left-0 top-0 z-50 shadow-lg">
     <div className="h-16 flex items-center gap-3 px-6 border-b border-gray-100">
-      <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white shadow-md">
-        <Building2 size={20} strokeWidth={2.5} />
+      <div className="w-10 h-10  rounded-lg flex items-center justify-center text-white">
+        <img src="/Sereno_Logo.png" alt="Sereno Logo" className="h-12" />
       </div>
       <span className="font-bold text-gray-900 text-xl tracking-tight">EPC Nexus</span>
     </div>
@@ -31,7 +31,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeView, setView }) => (
           JD
         </div>
         <div>
-          <p className="text-sm font-semibold text-gray-800">John Doe</p>
+          <p className="text-sm font-semibold text-gray-800">Harsh Chaudhari</p>
           <p className="text-xs text-gray-500">Head of Estimation</p>
         </div>
       </div>
